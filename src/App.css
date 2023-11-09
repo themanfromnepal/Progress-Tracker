@@ -1,0 +1,32 @@
+.App {
+  background: var(--COLOR-GRAY);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.title {
+  color: white;
+}
+
+.header img {
+  height: 4rem;
+}
+.content {
+  padding: 2rem;
+  display: flex;
+}
+
+.footer {
+  margin-top: auto;
+  text-align: center;
+  color: white;
+}
